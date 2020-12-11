@@ -1,11 +1,17 @@
+body {
+  background-image: url("./images/background11.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  font-family: 'Abril Fatface', cursive;
+}
+
 .screen {
-	width: 35%;
-	margin: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #000;
 }
 
 .logo {
@@ -13,15 +19,17 @@
   height: 5rem;
 }
 
-main,
-footer {
+.content {
+	background-color:  #8c8c8c;
+	height: 99VH;
 	width: 35%;
 	margin: auto;
-	background-color: #000;
+	padding: 2rem;
+	border-radius: .7rem;
 }
 
 .text_header {
-	font-size: 15px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -29,11 +37,96 @@ footer {
 	color: #fff;
 }
 
+.textB {
+  font-size: 20px
+}
+
 .textA {
 	text-align: center;
 }
 
-.loginForm {
-	width: 70%;
-	margin: auto;
+.footer {
+   position: fixed;
+   bottom:0;
+   left: 32.5%;
+   height: 75px;
+   background-color: #fff;
+   width: 35%;
 }
+
+.giga {
+ color: #993d00;
+ font-size: 22px;
+}
+
+.social_media_handles {
+	width: 80%;
+	margin: -18px auto;
+}
+
+.social_media_handlesp {
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.social_media_handles ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_media_handles ul  i {
+	font-size: 35px;
+	color: #ffad33;
+}
+.net {
+  color:  #cc5200;
+  font-size: 22px;
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+         .btn-grad {
+            margin: 30px 0 30px 19%;
+            padding: 25px 55px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #fff;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 20rem;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
+         .btn-grad2 {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+         .btn-grad2 {
+            margin: auto;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #fff;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 20rem;
+          }
+
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
