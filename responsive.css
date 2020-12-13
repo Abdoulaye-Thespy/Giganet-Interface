@@ -49,8 +49,22 @@ main {
 
 .btn-grad3 {
             width: 10rem;
+            padding: -5px 0 -5px 0;
           }
   .content {
 	border-radius: 0rem;
+}
+
+.social_media_handlesp {
+	font-size: 13.5px;
+
+}
+
+.social_media_handles ul  i {
+	font-size: 25px;
+	color: #ffad33;
+}
+.promo {
+  height: 2.5rem;
 }
 }
