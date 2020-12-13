@@ -19,10 +19,12 @@
    background-color: #fff;
    width: 100%;
 }
+
 .logo {
   width: 10rem;
   height: 3rem;
 }
+
 .text_header {
 	font-size: 15px;
 	text-align: center;
@@ -41,11 +43,11 @@ main {
 
 .promo p {
 	padding-top: 10px;
-	font-size: 10px;
+	font-size: 15px;
 	color: #fff;
 }
 
-         .btn-grad3 {
+.btn-grad3 {
             width: 10rem;
           }
   .content {
