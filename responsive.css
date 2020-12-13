@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
-    background-image: url("./images/background112.png");
+    background-image: url("./images/background11.png");
 
   }
   .content {
@@ -66,5 +66,19 @@ main {
 }
 .promo {
   height: 2.5rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+	width: 65%;
+	margin: auto;
+}
+}
+
+@media only screen and (max-width: 414px) {
+  .content {
+	width: 100%;
+	margin: auto;
 }
 }

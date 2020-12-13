@@ -61,9 +61,10 @@ main {
 }
 
 .social_media_handles {
-	margin: -18px 0 0 -65px;
+	margin: -5px 0 0 -30px;
 	border: 1px solid #808080;
 	border-radius: 10px;
+	padding: 10px 10px 0 0;
 }
 
 .social_media_handlesp {
@@ -80,7 +81,7 @@ main {
 }
 
 .social_media_handles ul  i {
-	font-size: 55px;
+	font-size: 45px;
 	color: #ffad33;
 }
 .promo_div {
