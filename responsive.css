@@ -33,7 +33,7 @@ main {
 }
 
 .textB {
-	font-size: 15px;
+	font-size: 14px;
 }
   .content {
 	padding: 1rem 0 1rem 0;
@@ -43,5 +43,12 @@ main {
 	padding-top: 10px;
 	font-size: 10px;
 	color: #fff;
+}
+
+         .btn-grad3 {
+            width: 10rem;
+          }
+  .content {
+	border-radius: 0rem;
 }
 }
