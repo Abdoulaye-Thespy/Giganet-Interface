@@ -6,7 +6,9 @@ body {
   background-size: cover;
   font-family: 'Abril Fatface', cursive;
 }
-
+main {
+	margin-top: -30px;
+}
 .screen {
 	display: flex;
 	flex-direction: column;
@@ -21,10 +23,9 @@ body {
 
 .content {
 	background-color:  #8c8c8c;
-	height: 99VH;
 	width: 35%;
 	margin: auto;
-	padding: 2rem;
+	padding: 4rem;
 	border-radius: .7rem;
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 .social_media_handles {
-	width: 80%;
+	width: 95%;
 	margin: -18px auto;
 }
 
@@ -81,14 +82,37 @@ body {
 	font-size: 35px;
 	color: #ffad33;
 }
+.promo_div {
+  border-left: 5px solid #99bbff;
+}
+.promo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.promo p {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #fff;
+}
+
 .net {
   color:  #cc5200;
   font-size: 22px;
 }
 
+        .btnDiv {
+        	flex-direction: column;
+        	display: flex;
+        	align-items: center;
+
+        }
+
          .btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
          .btn-grad {
-            margin: 30px 0 30px 19%;
+            margin: 30px 0 30px 0;
             padding: 25px 55px;
             text-align: center;
             text-transform: uppercase;
@@ -106,14 +130,13 @@ body {
             color: #fff;
             text-decoration: none;
           }
-
+      
 
 
          .btn-grad2 {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
          .btn-grad2 {
             margin: auto;
             padding: 15px 45px;
-            text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
@@ -129,4 +152,24 @@ body {
             color: #fff;
             text-decoration: none;
           }
-         
+
+                  .btn-grad3 {background-image: linear-gradient(to right, #99bbff 0%, #12D8FA  51%, #1FA2FF  100%)}
+         .btn-grad3 {
+            margin: auto;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #fff;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 15rem;
+          }
+
+          .btn-grad3:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }

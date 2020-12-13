@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+    background-image: url("./images/background112.png");
+
+  }
+  .content {
+	background-color:  #8c8c8c;
+	width: 100%;
+	margin: auto;
+	padding: 2rem;
+	border-radius: .7rem;
+}
+.footer {
+   position: fixed;
+   bottom:0;
+   left: 0;
+   height: 65px;
+   background-color: #fff;
+   width: 100%;
+}
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+.text_header {
+	font-size: 15px;
+	text-align: center;
+}
+
+main {
+	margin-top: -30px;
+}
+
+.textB {
+	font-size: 15px;
+}
+  .content {
+	padding: 1rem 0 1rem 0;
+}
+}
