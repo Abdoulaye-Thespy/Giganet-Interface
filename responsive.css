@@ -38,4 +38,10 @@ main {
   .content {
 	padding: 1rem 0 1rem 0;
 }
+
+.promo p {
+	padding-top: 10px;
+	font-size: 10px;
+	color: #fff;
+}
 }

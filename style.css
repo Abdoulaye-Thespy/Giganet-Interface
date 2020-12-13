@@ -25,7 +25,7 @@ main {
 	background-color:  #8c8c8c;
 	width: 35%;
 	margin: auto;
-	padding: 4rem;
+	padding: 3rem;
 	border-radius: .7rem;
 }
 
@@ -89,13 +89,15 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 1rem;
+	height: 2.7rem;
+	padding: 0 10px 0 10px;
 }
 
 .promo p {
 	padding-top: 10px;
 	font-size: 20px;
 	color: #fff;
+	margin-top: 10px
 }
 
 .net {
