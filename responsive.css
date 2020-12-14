@@ -8,7 +8,7 @@
 	background-color:  #8c8c8c;
 	width: 100%;
 	margin: auto;
-	padding: 2rem;
+	padding: 2rem 0 25px 0;
 	border-radius: .7rem;
 }
 .footer {
@@ -89,5 +89,9 @@ main {
 	margin: auto;
 	line-height: 95%;
 
+}
+
+#menu1{
+  padding-bottom: 3rem;
 }
 }
