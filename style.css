@@ -27,6 +27,7 @@ main {
 	margin: auto;
 	padding: 3rem;
 	border-radius: .7rem;
+	min-height: 100VH;
 }
 
 .text_header {
@@ -176,3 +177,23 @@ main {
             color: #fff;
             text-decoration: none;
           }
+         .connect1 {
+           display: grid;
+           grid-template-columns: 1fr 1.5fr;
+           margin-top: 4rem;
+         }
+
+         .logout {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+         }
+        .connect1_Yellow {
+        	font-size: 20px;
+        	color: #cc5200;
+        }
+        .connect1_White {
+        	color: #fff;
+        	font-size: 20px;
+        }
