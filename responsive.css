@@ -94,4 +94,7 @@ main {
 #menu1{
   padding-bottom: 3rem;
 }
+.content {
+	padding-bottom: 60px;
+}
 }
