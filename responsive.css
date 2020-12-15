@@ -81,6 +81,12 @@ main {
   padding: 5px 0 5px 0;
   text-align: center;
 }
+        .connect1_Yellow {
+        	font-size: 15px;
+        }
+        .connect1_White {
+        	font-size: 15px;
+        }
 }
 
 @media only screen and (max-width: 414px) {

@@ -17,7 +17,7 @@ main {
 }
 
 .logo {
-  width: 15rem;
+  width: 12rem;
   height: 5rem;
 }
 
@@ -179,19 +179,22 @@ main {
           }
          .connect1 {
            display: grid;
-           grid-template-columns: 1fr 1.5fr;
+           grid-template-columns: 1fr 1fr;
+           grid-gap: 0 50px;
            margin-top: 4rem;
+           max-width: 80%;
+           padding: 0 4rem 2rem 0rem
          }
 
          .logout {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
          }
         .connect1_Yellow {
         	font-size: 20px;
-        	color: #cc5200;
+        	color:  #FBBB19;
         }
         .connect1_White {
         	color: #fff;
