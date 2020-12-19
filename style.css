@@ -200,3 +200,12 @@ main {
         	color: #fff;
         	font-size: 20px;
         }
+        .who_are_we {
+          text-align: center;
+          color: #FBBB19;
+          line-height: 150%;
+        }
+
+        .Who_are_we i {
+             font-size: 45px;
+        }
