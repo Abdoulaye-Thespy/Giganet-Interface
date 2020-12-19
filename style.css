@@ -203,9 +203,25 @@ main {
         .who_are_we {
           text-align: center;
           color: #FBBB19;
-          line-height: 150%;
+          font-size: 55px;
+
+        }
+        .who_are_we p {
+              font-size: 25px;
         }
 
-        .Who_are_we i {
-             font-size: 45px;
+        .intro {
+       font-size: 20px;
         }
+        .intro span {
+          color: #4dc3ff;
+        }
+
+    .trait::before {
+  content: "−";
+  color: #FBBB19;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  margin-right: -15px; 
+}
