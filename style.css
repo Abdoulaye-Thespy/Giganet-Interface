@@ -22,7 +22,7 @@ main {
 }
 
 .content {
-	background-color:  #8c8c8c;
+	background-color:  #646464;
 	width: 35%;
 	margin: auto;
 	padding: 3rem;
@@ -57,7 +57,7 @@ main {
 }
 
 .giga {
- color: #993d00;
+ color: #EF7B18;
  font-size: 22px;
 }
 
@@ -86,16 +86,29 @@ main {
 	color: #ffad33;
 }
 .promo_div {
-  border-left: 5px solid #99bbff;
+  border-left: 5px solid #9AB5FF;
+}
+
+.promo_div1 {
+  border-left: 5px solid #2CA3FF;
+}
+
+.promo_div2 {
+  border-left: 5px solid #FFCF53;
+}
+.promo_div3 {
+  border-left: 5px solid #F6B100; 
 }
 .promo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	height: 2.7rem;
 	padding: 0 10px 0 10px;
 }
-
+  .promo :first-child {
+        width: 70%;
+      }
 .promo p {
 	padding-top: 10px;
 	font-size: 20px;
@@ -104,7 +117,7 @@ main {
 }
 
 .net {
-  color:  #cc5200;
+  color:  #FBBB19;
   font-size: 22px;
 }
 
@@ -118,16 +131,15 @@ main {
          .btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
          .btn-grad {
             margin: 30px 0 30px 0;
-            padding: 25px 55px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
             color: #fff;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
+            box-shadow: 0 0 20px #737373;
             display: block;
             width: 20rem;
+            height: 3.2rem;
           }
 
           .btn-grad:hover {
@@ -141,14 +153,15 @@ main {
          .btn-grad2 {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
          .btn-grad2 {
             margin: auto;
-            padding: 15px 45px;
+            padding: 12px 0 12px 0;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
             color: #fff;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
+            box-shadow: 0 0 20px #737373;
+            border-radius: 15px;
             display: block;
+            font-size: 20px;
             width: 20rem;
           }
 
@@ -158,7 +171,16 @@ main {
             text-decoration: none;
           }
 
-                  .btn-grad3 {background-image: linear-gradient(to right, #99bbff 0%, #12D8FA  51%, #1FA2FF  100%)}
+          .btn-grad2 span i {
+            font-size: 30px;
+            margin: 0 25px -10px 25px;
+          }
+
+         .btn-grad33 {background-image: linear-gradient(to right, #9AB5FF 50%, #9AB5FF  50%)}
+         .btn-grad34 {background-image: linear-gradient(to right, #2CA3FF 50%, #2CA3FF  50%)}
+         .btn-grad35 {background-image: linear-gradient(to right, #FFCF53 50%, #FFCF53  50%)}
+         .btn-grad36 {background-image: linear-gradient(to right, #F6B100 50%, #F6B100  50%)}
+
          .btn-grad3 {
             margin: auto;
             padding: 15px 45px;
@@ -169,7 +191,7 @@ main {
             color: #fff;            
             border-radius: 10px;
             display: block;
-            width: 15rem;
+            width: 10rem;
           }
 
           .btn-grad3:hover {
@@ -203,11 +225,12 @@ main {
         .who_are_we {
           text-align: center;
           color: #FBBB19;
-          font-size: 55px;
+          font-size: 35px;
 
         }
         .who_are_we p {
-              font-size: 25px;
+              font-size: 20px;
+              margin-top: 10px;
         }
 
         .intro {
@@ -337,3 +360,33 @@ main {
   }
 }
 
+.voir_plus {
+  color: #2999F1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voir_plus p i {
+  margin-top: 7px; 
+  margin-left: 8px;
+}
+
+.base {
+  margin: 10px 0 2px 0; 
+  font-size: 20px;
+}
+.basique {
+  color: #9AB5FF;
+}
+
+.basique1 {
+  color: #2CA3FF;
+}
+.basique2 {
+  color: #FFCF53;
+}
+.basique3 {
+  color: #F6B100;
+}
