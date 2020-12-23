@@ -24,6 +24,20 @@
                <div class="tab-content">
                   <!-- first page content -->
                   <div id="connect" class="container tab-pane active">
+
+              <div class="connecté" id="con">
+              <soan class="vert">
+                <i class="fas fa-circle"></i>
+              </span>
+              <span class="blanc">Connecté</span>
+            </div>
+
+              <div class="deconnecté" id="decon">
+              <span class="rouge">
+                <i class="fas fa-circle"></i>
+              </span>
+              <span class="blanc">Deconnecté</span>
+            </div>
            <div class="connect1">
                      <div class="connect1_Yellow">
                        <p>Indentifiant</p>   
@@ -46,11 +60,12 @@
             </div>
                                  <div class="logout">
                       <div>
-                     <button type="submit" class="btn btn-grad3 textA text">Deconnection</button>
+                     <button type="submit" class="btn btn-grad3 btn-grad38 textA text" id="stop" onclick="delete_connect()">Stop Wifi</button></br></br>
+                     <button type="submit" class="btn btn-grad3 btn-grad36 textA text" id="start" onclick="delete_deconnect()">Start Wifi</button>
                       </div>
                     </div>
                </div>
-                  <!--  second page content -->
+                 <!--  second page content -->
                   <div id="menu1" class="container tab-pane fade">
                      <br>
                      <div class="social_media_handles">
@@ -62,56 +77,126 @@
                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                      </div>
-                     <p>PACK BASIQUE /  1JOUR-24H</p>
+                     <p class="basique base">PACK BASIQUE /  1JOUR-24H</p>
                      <div class="promo_div">
-                        <div class="promo">
+                        <div class="promo promo1">
                            <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <button type="submit" class="btn btn-grad33 btn-grad3 textA text">Acheter</button>
                         </div>
                         <div class="promo">
                            <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <button type="submit" class="btn btn-grad33 btn-grad3 textA text">Acheter</button>
                         </div>
                         <div class="promo">
                            <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <button type="submit" class="btn btn-grad33 btn-grad3 textA text">Acheter</button>
                         </div>
                      </div>
-                     <p>PACK BASIQUE /  1JOUR-24H </p>
-                     <div class="promo_div">
+                     <p class="base basique1">PACK STARTUP /  3JOURS-72H </p>
+                     <div class="promo_div1">
                         <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <p>3GO/500 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad34 textA text .btn-grad4">Acheter</button>
                         </div>
                         <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
-                        </div>
-                     </div>
-                     <p>PACK BASIQUE /  1JOUR-24H</p>
-                     <div class="promo_div">
-                        <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
-                        </div>
-                        <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <p>10GO/1000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad34 textA text .btn-grad4">Acheter</button>
                         </div>
                      </div>
-                     <p>PACK BASIQUE /  1JOUR-24H</p>
-                     <div class="promo_div">
+                     <p class="base basique2">PACK BASIQUE /  1JOUR-24H</p>
+                     <div class="promo_div2">
                         <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <p>15GO/2000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad35 textA text">Acheter</button>
                         </div>
                         <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <p>40GO/4000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad35 textA text">Acheter</button>
+                        </div>
+                     </div>
+                     <p class="base basique3">PACK BUSINESS /  1 MOIS</p>
+                     <div class="promo_div3">
+                        <div class="promo">
+                           <p>15GO/5000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad36 textA text">Acheter</button>
                         </div>
                         <div class="promo">
-                           <p>250MO/100 FCFA</p>
-                           <button type="submit" class="btn btn-grad3 textA text">Acheter</button>
+                           <p>100GO/8000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad36 textA text">Acheter</button>
+                        </div>
+                        <div class="promo">
+                           <p>ILLIMITE/13000 FCFA</p>
+                           <button type="submit" class="btn btn-grad3 btn-grad36 textA text">Acheter</button>
+                        </div>
+                     </div>
+                  </div>
+
+
+                  <!-- Third tab content -->
+                  <div id="menu2" class="container tab-pane fade">
+                                           <br>
+                     <div class="social_media_handles">
+                        <ul>
+                           <li class="social_media_handlesp">Cliquez et Suivez nous sur</li>
+                           <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                           <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                           <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+                           <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                     </div>
+                     <div>
+                        <div class="who_are_we">
+                         <span><i class="fas fa-user-check"></i></span>
+                        <p>QUI SOMMES NOUS ?</p>
+                        </div>
+
+                        <P class="intro text"><SPAN>ALSHADOWS TECHNOLOGIES</SPAN> est une entreprsie specialisee dans la fourniture des solutions technologiques et innovantes. Depuis quelques annees, elle s'impose peu a peu dans le secteur high tech en Afrique et dela. Ayant mene a bien de nombreux proets tant nationaux qu'internationaux, elle est indiquee comme etant l'entreprise par excellence pour mener a bien vos divers projets.</P>
+                        <div class="who_are_we">
+                         <span><i class="fas fa-headset"></i></i></span>
+                        <p>NOS SERVICES</p>
+                        </div>
+                        <p class="text  trait">Devellopement des applicaitons web et mobiles. Logiciels, jeux videos, systeme de gestion, etc</p>
+                        <p class="text  trait">Marketing digital et commincation management</p>
+                        <p class="text  trait">Tracking</p>
+                        <p class="text trait">UX/UI design</p>
+                        <p class="text  trait">Gestion des projets</p>
+                        <p class="text  trait">Securite informatique</p>
+                        <p class="text  trait">Maintenance des systeme informatiques</p>
+                        <p class="text  trait">Formations</p>
+                        <p class="text  trait">Reseaux et telecommunications</p>
+                        <p class="text  trait">Distribution internet</p>
+                        <p class="text  trait">Graphisme (logos, flyers, affiches, videos, etc...)</p>
+                        <p class="text  trait">Finance, fiscalite, comptabilite, businesss plan</p>
+                        <p class="text  trait">Immobilier</p>
+                        <p class="text  trait">Fournisseurs d'equipements + installation</p>
+                        <div class="who_are_we">
+                         <span><i class="far fa-handshake"></i></span>
+                        <p>POURQUOI NOUS CHOISIR ?</p>
+                        </div>
+
+                        <div class="services">
+                           <div>
+                              <p class="text trait"> Rapidite</p>
+                              <p class="text trait"> Determination</p>
+                              <p class="text trait">Inovation</p>
+                              <p class="text trait"> Qualite</p>
+                              
+                           </div>
+                           <div>
+                              <p class="text trait"> Ethique</p>
+                              <p class="text trait"> Precision</p>
+                              <p class="text trait"> Bon Prix</p>
+                              <p class="text trait"> Livraison</p>
+                           </div>
+                        </div>
+                        <div class="who_are_we">
+                         <span><i class="fas fa-map-marker-alt"></i></span>
+                        <p>Localisation</p>
+                        </div>
+                        <p class="text textB textA">Cameroun/Yaounde/Mimboman Sonel</p>
+                        <div>
+                           <p  class="text textA">All right reserved</p>
+                           <p class="text textA">Copyright @ 2021</p>
                         </div>
                      </div>
                   </div>
@@ -129,8 +214,10 @@
                   <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
                </li>
             </ul>
-      </div> 
+      </div>
       </main>
       </div>
+       <script src="index.js"></script> 
    </body>
 </html>
+

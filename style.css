@@ -180,6 +180,7 @@ main {
          .btn-grad34 {background-image: linear-gradient(to right, #2CA3FF 50%, #2CA3FF  50%)}
          .btn-grad35 {background-image: linear-gradient(to right, #FFCF53 50%, #FFCF53  50%)}
          .btn-grad36 {background-image: linear-gradient(to right, #F6B100 50%, #F6B100  50%)}
+         .btn-grad38 {background-image: linear-gradient(to right, #ff3333 50%, #ff3333  50%)}
 
          .btn-grad3 {
             margin: auto;
@@ -389,4 +390,34 @@ main {
 }
 .basique3 {
   color: #F6B100;
+}
+
+.connecté {
+text-align: center;
+margin-top: 2rem;
+}
+
+.deconnecté {
+  text-align: center;
+  display: none;
+  margin-top: 2rem;
+}
+
+.vert {
+  color: #66ff66;
+  margin-right: 0;
+}
+
+.blanc {
+  color: #fff;
+}
+
+.rouge {
+  color: red;
+  margin-right: 1rem;
+}
+
+#start {
+  display: none;
+  margin-top: -47px;
 }
