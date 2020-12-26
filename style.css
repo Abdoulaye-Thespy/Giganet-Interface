@@ -6,14 +6,16 @@ body {
   background-size: cover;
   font-family: 'Abril Fatface', cursive;
 }
+
 main {
-	margin-top: -30px;
+  margin-top: -30px;
 }
+
 .screen {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -22,60 +24,59 @@ main {
 }
 
 .content {
-	background-color:  #646464;
-	width: 35%;
-	margin: auto;
-	padding: 3rem;
-	border-radius: .7rem;
-	min-height: 100VH;
+  background-color: #646464;
+  width: 35%;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 0.7rem;
+  min-height: 100vh;
 }
 
 .text_header {
-	font-size: 20px;
-	text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 .text {
-	color: #fff;
+  color: #fff;
 }
 
 .textB {
-  font-size: 20px
+  font-size: 20px;
 }
 
 .textA {
-	text-align: center;
+  text-align: center;
 }
 
 .footer {
-   position: fixed;
-   bottom: -5px;
-   left: 32.5%;
-   height: 55px;
-   background-color: #fff;
-   display: flex;
-   justify-content: space-around;
-   width: 35%;
+  position: fixed;
+  bottom: -5px;
+  left: 32.5%;
+  height: 55px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
 }
 
 .giga {
- color: #EF7B18;
- font-size: 22px;
+  color: #ef7b18;
+  font-size: 22px;
 }
 
 .social_media_handles {
-	margin: -5px 0 0 -30px;
+  margin: -5px 0 0 -30px;
   padding-right: 20px;
-	box-shadow: -5px 5px #737373;
+  box-shadow: -5px 5px #737373;
   box-shadow: -5px -5px 12px #737373;
-	border-radius: 10px;
-	padding: 10px 10px 0 0;
+  border-radius: 10px;
+  padding: 10px 10px 0 0;
 }
 
 .social_media_handlesp {
-	color: #fff;
-	font-size: 18px;
-
+  color: #fff;
+  font-size: 18px;
 }
 
 .social_media_handles ul {
@@ -85,180 +86,191 @@ main {
   align-items: center;
 }
 
-.social_media_handles ul  i {
-	font-size: 45px;
-	color: #ffad33;
+.social_media_handles ul i {
+  font-size: 45px;
+  color: #ffad33;
 }
+
 .promo_div {
-  border-left: 5px solid #9AB5FF;
+  border-left: 5px solid #9ab5ff;
 }
 
 .promo_div1 {
-  border-left: 5px solid #2CA3FF;
+  border-left: 5px solid #2ca3ff;
 }
 
 .promo_div2 {
-  border-left: 5px solid #FFCF53;
+  border-left: 5px solid #ffcf53;
 }
+
 .promo_div3 {
-  border-left: 5px solid #F6B100; 
+  border-left: 5px solid #f6b100;
 }
+
 .promo {
   display: flex;
   justify-content: center;
   align-items: center;
-	height: 2.7rem;
-	padding: 0 10px 0 10px;
+  height: 2.7rem;
+  padding: 0 10px 0 10px;
 }
-  .promo :first-child {
-        width: 70%;
-      }
+
+.promo :first-child {
+  width: 70%;
+}
+
 .promo p {
-	padding-top: 10px;
-	font-size: 20px;
-	color: #fff;
-	margin-top: 10px
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
 }
 
 .net {
-  color:  #FBBB19;
+  color: #fbbb19;
   font-size: 22px;
 }
 
-        .btnDiv {
-        	flex-direction: column;
-        	display: flex;
-        	align-items: center;
+.btnDiv {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
 
-        }
+.btn-grad { background-image: linear-gradient(to right, #f09819 0%, #edde5d  51%, #f09819  100%); }
 
-         .btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
-         .btn-grad {
-            margin: 30px 0 30px 0;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: #fff;            
-            box-shadow: 0 0 20px #737373;
-            display: block;
-            width: 20rem;
-            height: 3.2rem;
-          }
+.btn-grad {
+  margin: 30px 0 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #737373;
+  display: block;
+  width: 20rem;
+  height: 3.2rem;
+}
 
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-      
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 
-         .btn-grad2 {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
-         .btn-grad2 {
-            margin: auto;
-            padding: 12px 0 12px 0;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: #fff;            
-            box-shadow: 0 0 20px #737373;
-            border-radius: 15px;
-            display: block;
-            font-size: 20px;
-            width: 20rem;
-          }
+.btn-grad2 { background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa  51%, #1fa2ff  100%); }
 
-          .btn-grad2:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
+.btn-grad2 {
+  margin: auto;
+  padding: 12px 0 12px 0;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #737373;
+  border-radius: 15px;
+  display: block;
+  font-size: 20px;
+  width: 20rem;
+}
 
-          .btn-grad2 span i {
-            font-size: 30px;
-            margin: 0 25px -10px 25px;
-          }
+.btn-grad2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
-         .btn-grad33 {background-image: linear-gradient(to right, #9AB5FF 50%, #9AB5FF  50%)}
-         .btn-grad34 {background-image: linear-gradient(to right, #2CA3FF 50%, #2CA3FF  50%)}
-         .btn-grad35 {background-image: linear-gradient(to right, #FFCF53 50%, #FFCF53  50%)}
-         .btn-grad36 {background-image: linear-gradient(to right, #F6B100 50%, #F6B100  50%)}
-         .btn-grad38 {background-image: linear-gradient(to right, #ff3333 50%, #ff3333  50%)}
-         .btn-grad39 {background-image: linear-gradient(to right, #4da6ff 50%, #4da6ff  50%)}
+.btn-grad2 span i {
+  font-size: 30px;
+  margin: 0 25px -10px 25px;
+}
 
-         .btn-grad3 {
-            margin: auto;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: #fff;            
-            border-radius: 10px;
-            display: block;
-            width: 10rem;
-          }
+.btn-grad33 { background-image: linear-gradient(to right, #9ab5ff 50%, #9ab5ff  50%); }
+.btn-grad34 { background-image: linear-gradient(to right, #2ca3ff 50%, #2ca3ff  50%); }
+.btn-grad35 { background-image: linear-gradient(to right, #ffcf53 50%, #ffcf53  50%); }
+.btn-grad36 { background-image: linear-gradient(to right, #f6b100 50%, #f6b100  50%); }
+.btn-grad38 { background-image: linear-gradient(to right, #f33 50%, #f33  50%); }
+.btn-grad39 { background-image: linear-gradient(to right, #4da6ff 50%, #4da6ff  50%); }
 
-          .btn-grad3:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-         .connect1 {
-           display: grid;
-           grid-template-columns: 1fr 1fr;
-           grid-gap: 0 50px;
-           margin-top: 1.5rem;
-           max-width: 80%;
-           padding: 0 4rem 2rem 0rem
-         }
+.btn-grad3 {
+  margin: auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: 10rem;
+}
 
-         .logout {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-         }
-        .connect1_Yellow {
-        	font-size: 20px;
-        	color:  #FBBB19;
-        }
-        .connect1_White {
-        	color: #fff;
-        	font-size: 20px;
-        }
-        .who_are_we {
-          text-align: center;
-          color: #FBBB19;
-          font-size: 35px;
+.btn-grad3:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
-        }
-        .who_are_we p {
-              font-size: 20px;
-              margin-top: 10px;
-        }
+.connect1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 50px;
+  margin-top: 1.5rem;
+  max-width: 80%;
+  padding: 0 4rem 2rem 0;
+}
 
-        .intro {
-       font-size: 20px;
-        }
-        .intro span {
-          color: #4dc3ff;
-        }
+.logout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-    .trait::before {
+.connect1_Yellow {
+  font-size: 20px;
+  color: #fbbb19;
+}
+
+.connect1_White {
+  color: #fff;
+  font-size: 20px;
+}
+
+.who_are_we {
+  text-align: center;
+  color: #fbbb19;
+  font-size: 35px;
+}
+
+.who_are_we p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+.intro span {
+  color: #4dc3ff;
+}
+
+.trait::before {
   content: "−";
-  color: #FBBB19;
+  color: #fbbb19;
   font-weight: bold;
   display: inline-block;
   width: 2em;
-  margin-right: -15px; 
+  margin-right: -15px;
 }
 
 .services {
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
 }
+
 .logo_welcome {
   margin: 8rem 0 5rem 0;
   width: 20rem;
@@ -266,77 +278,83 @@ main {
 }
 
 .scale-in-center {
-  -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          margin-top: 4rem;
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  margin-top: 4rem;
 }
+
 @-webkit-keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
+
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
 .scale-in-centerp {
-  -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-          animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-          width: 10rem;
-          height: 5rem;
-
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  width: 10rem;
+  height: 5rem;
 }
 
 @-webkit-keyframes scale-in-centerp {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
+
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
 .scale-in-centert {
-  -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
-          animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
 
 /* ----------------------------------------------
  * Generated by Animista on 2020-12-20 17:59:37
  * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
+ * See http://animista.net/license for more info.
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
@@ -348,30 +366,33 @@ main {
 @-webkit-keyframes scale-in-centert {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
+
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
 .voir_plus {
-  color: #2999F1;
+  color: #2999f1;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -379,31 +400,34 @@ main {
 }
 
 .voir_plus p i {
-  margin-top: 7px; 
+  margin-top: 7px;
   margin-left: 8px;
 }
 
 .base {
-  margin: 10px 0 2px 0; 
+  margin: 10px 0 2px 0;
   font-size: 20px;
 }
+
 .basique {
-  color: #9AB5FF;
+  color: #9ab5ff;
 }
 
 .basique1 {
-  color: #2CA3FF;
+  color: #2ca3ff;
 }
+
 .basique2 {
-  color: #FFCF53;
+  color: #ffcf53;
 }
+
 .basique3 {
-  color: #F6B100;
+  color: #f6b100;
 }
 
 .connecté {
-text-align: center;
-margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .deconnecté {
@@ -413,7 +437,7 @@ margin-top: 2rem;
 }
 
 .vert {
-  color: #66ff66;
+  color: #6f6;
   margin-right: 0;
 }
 
@@ -430,6 +454,7 @@ margin-top: 2rem;
   display: none;
   margin-top: -47px;
 }
+
 .nav-item {
   display: flex;
   justify-content: center;
