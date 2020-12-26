@@ -204,7 +204,7 @@ main {
            display: grid;
            grid-template-columns: 1fr 1fr;
            grid-gap: 0 50px;
-           margin-top: 4rem;
+           margin-top: 1.5rem;
            max-width: 80%;
            padding: 0 4rem 2rem 0rem
          }
