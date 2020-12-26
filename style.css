@@ -53,6 +53,8 @@ main {
    left: 32.5%;
    height: 55px;
    background-color: #fff;
+   display: flex;
+   justify-content: space-around;
    width: 35%;
 }
 
@@ -63,7 +65,9 @@ main {
 
 .social_media_handles {
 	margin: -5px 0 0 -30px;
-	border: 1px solid #808080;
+  padding-right: 20px;
+	box-shadow: -5px 5px #737373;
+  box-shadow: -5px -5px 12px #737373;
 	border-radius: 10px;
 	padding: 10px 10px 0 0;
 }
@@ -181,6 +185,7 @@ main {
          .btn-grad35 {background-image: linear-gradient(to right, #FFCF53 50%, #FFCF53  50%)}
          .btn-grad36 {background-image: linear-gradient(to right, #F6B100 50%, #F6B100  50%)}
          .btn-grad38 {background-image: linear-gradient(to right, #ff3333 50%, #ff3333  50%)}
+         .btn-grad39 {background-image: linear-gradient(to right, #4da6ff 50%, #4da6ff  50%)}
 
          .btn-grad3 {
             margin: auto;
@@ -263,6 +268,7 @@ main {
 .scale-in-center {
   -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          margin-top: 4rem;
 }
 @-webkit-keyframes scale-in-center {
   0% {
@@ -292,6 +298,9 @@ main {
 .scale-in-centerp {
   -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
           animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+          width: 10rem;
+          height: 5rem;
+
 }
 
 @-webkit-keyframes scale-in-centerp {
@@ -420,4 +429,8 @@ margin-top: 2rem;
 #start {
   display: none;
   margin-top: -47px;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
 }
